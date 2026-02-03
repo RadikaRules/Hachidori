@@ -1,28 +1,40 @@
-# Design Document
-# Gameplay
+# Hachidori Design Document
 ## Characters
-- TBD
-### Player1 (Christie)
-- Can walk on spikes
-- Average jump
-- Low speed, Slow run
-- Average slide
-### Player2 (Ben)
-- Can push heavy objects
-- Short
-- Low jump
-- Average speed, Average run
-- Slow, short slide
-### Player3 (Trent)
-- High jump
-- Fast speed, fast run
-- Tall
-- Fast, long slide, high recovery
-### Player 4 (Mechanus)
-- Multiplayer mode only, No unique skills
-- Can be used as a skin for any other character in singleplayer
-# Objects, hazards
-- Levers, button (On background, triggered by pressing up)
-- Laser barrier (H and V)
-- Timed barrier
-- Spike cannon
+- Casie
+## Gameplay/Mechanics
+Shield
+- 1 extra hit
+Charge shot
+- 5s to full
+- Holding for more than 6s triggers overheat, disabling fire for 5s
+Bomb
+- 3 max
+- Removes shield
+- Slows player 25% for 8s if used without shield
+
+### Stage path system
+At end of stage, pause scrolling and prompt player to choose a path
+
+
+## Dialogue system
+Pre-boss encounter and other events.
+- Pause scrolling, display textbox
+- Advance with player input (default)
+
+
+## Hazards/Level gimmicks
+Cave walls
+- Remove shield on contact
+- Can't kill player
+Rails
+- 3 min
+- Can jump from one to another
+- Can't fire during change
+- Can flip directions
+
+## Extras
+No shield mode
+- Disables shield, decreases penalties from 10% and 5s
+Text auto advance
+- Advances thru text automatically
+- Options: Quick, fast, skip
